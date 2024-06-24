@@ -1,5 +1,7 @@
 # rf_website_downloader - Website Downloader - Download as Image or PDF
 
+[README dengan Bahasa Indonesia Klik di Sini](https://github.com/rakifsul/rf_website_downloader/blob/main/README_id.md)
+
 This application is a website downloader.
 
 Uniquely, the downloaded website results are in the form of image files or PDF files.
