@@ -25,3 +25,7 @@ Karena puppeteer memerlukan chrome, maka sebelum aplikasi ini bisa digunakan, ch
 <p align="center">
 	<img src="./.md_asset/ss-1.png" />
 </p>
+
+## Link untuk Traktir
+
+- https://karyakarsa.com/rakifsul
