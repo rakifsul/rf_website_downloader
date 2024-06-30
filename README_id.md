@@ -28,4 +28,4 @@ Karena puppeteer memerlukan chrome, maka sebelum aplikasi ini bisa digunakan, ch
 
 ## Link untuk Traktir
 
-- https://karyakarsa.com/rakifsul
+- https://karyakarsa.com/rakifsul/info
