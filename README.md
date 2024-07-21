@@ -16,6 +16,10 @@ This application uses Puppeteer for scraping.
 
 Download the executable on "Releases" page.
 
+## Where are the Source Codes
+
+Source codes are included in the zip along with the executables.
+
 ## How to Use
 
 You can find the executables in "dist" folder.

@@ -14,6 +14,10 @@ Aplikasi ini menggunakan puppeteer untuk melakukan scraping.
 
 Download aplikasi ini di halaman "Releases".
 
+## Di Mana Source Code-nya
+
+Source code ada di dalam paket zip bersama executable-nya.
+
 ## Cara Penggunaan
 
 Executable ada di folder "dist".
