@@ -1,3 +1,3 @@
-place chromium binary there.
+place chromium binary there (in this folder).
 you can, for example, get it from here:
 https://github.com/ungoogled-software/ungoogled-chromium-windows/releases
