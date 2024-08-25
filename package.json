@@ -1,0 +1,49 @@
+{
+    "name": "rf_website_downloader",
+    "version": "2024.08.13-0157",
+    "description": "Website downloader.",
+    "author": "RAKIFSUL",
+    "main": "main.mjs",
+    "scripts": {
+        "start": "electron .",
+        "dev": "nodemon --exec electron .",
+        "dist": "electron-builder"
+    },
+    "build": {
+        "buildVersion": "0",
+        "appId": "com.rakifsul.rf_website_downloader",
+        "productName": "RF Website Downloader",
+        "win": {
+            "target": "nsis",
+            "icon": "build/icon/cloud-arrow-down-fill.ico"
+        },
+        "asar": true,
+        "publish": null,
+        "directories": {
+            "output": "../rf_website_downloader_dist"
+        },
+        "files": [
+            "**/*",
+            "!chromium",
+            "!data",
+            "!data_chromium"
+        ],
+        "extraFiles": [
+            "LICENSE",
+            "NOTICE",
+            "chromium",
+            "data",
+            "data_chromium"
+        ]
+    },
+    "devDependencies": {
+        "electron": "^31.2.0",
+        "electron-builder": "^24.13.3",
+        "nodemon": "^3.1.4"
+    },
+    "dependencies": {
+        "electron-is-dev": "^3.0.1",
+        "electron-store": "^10.0.0",
+        "puppeteer-core": "^22.12.1"
+    }
+}

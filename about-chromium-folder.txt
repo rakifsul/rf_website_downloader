@@ -1,0 +1,3 @@
+place chromium binary there.
+you can, for example, get it from here:
+https://github.com/ungoogled-software/ungoogled-chromium-windows/releases

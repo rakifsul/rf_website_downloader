@@ -1,0 +1,14 @@
+body {
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.fill {
+  flex: 1;
+}

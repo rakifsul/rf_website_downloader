@@ -1,0 +1,23 @@
+Bootstrap v5.1.3:
+This software is using Bootstrap v5.1.3 (https://getbootstrap.com) by Twitter, Inc. & The Bootstrap Authors under the MIT license(https://github.com/twbs/bootstrap/blob/main/LICENSE).
+
+aws-sign2:
+This software is using aws-sign2(https://github.com/mikeal/aws-sign) by Mikeal Rogers under the Apache 2.0 license(http://www.apache.org/licenses/LICENSE-2.0.html).
+
+caseless:
+This software is using caseless(https://github.com/mikeal/caseless) by Mikeal Rogers under the Apache 2.0 license(http://www.apache.org/licenses/LICENSE-2.0.html).
+
+forever-agent:
+This software is using forever-agent(https://github.com/mikeal/forever-agent) by Mikeal Rogers under the Apache 2.0 license(http://www.apache.org/licenses/LICENSE-2.0.html).
+
+oauth-sign:
+This software is using oauth-sign(https://github.com/mikeal/oauth-sign) by Mikeal Rogers under the Apache 2.0 license(http://www.apache.org/licenses/LICENSE-2.0.html).
+
+puppeteer-core:
+This software is using request(https://www.npmjs.com/package/puppeteer-core) by All Puppeteer Core Developers under the Apache 2.0 license(http://www.apache.org/licenses/LICENSE-2.0.html).
+
+request:
+This software is using request(https://github.com/request/request) by Mikeal Rogers under the Apache 2.0 license(http://www.apache.org/licenses/LICENSE-2.0.html).
+
+tunnel-agent:
+This software is using tunnel-agent(https://github.com/mikeal/tunnel-agent) by Mikeal Rogers under the Apache 2.0 license(http://www.apache.org/licenses/LICENSE-2.0.html).

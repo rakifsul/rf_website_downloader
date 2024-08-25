@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="renderer.css" rel="stylesheet">
+</head>
+
+<body id="mybody">
+  <div class="container-fluid d-flex h-100 flex-column">
+    <div class="row alert alert-top alert-dark">
+      <div class="col-9">
+        <div class="progress" style="width: 100%; margin: 0px auto; height:38px; float:left">
+          <div id="progressbar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <button id="btn-start" class="btn btn-primary w-100" href="#" role="button">Start</button>
+      </div>
+    </div>
+
+    <div class="row alert alert-bottom alert-dark fill d-flex">
+      <div class="col-12">
+        <ul id="config-tabs" class="nav nav-pills">
+          <li class="nav-item"><a class="nav-link active" href="#targets" data-bs-toggle="tab">Targets</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#connections" data-bs-toggle="tab">Connections</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#on-finished" data-bs-toggle="tab">On Finished</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div id="targets" class="tab-pane fade show active" role="tabpanel">
+            <div class="row">
+              <div class="form-group">
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                </div>
+                <div class="form-group">
+                  <label for="txt-single-url">Root URL:</label>
+                  <input type="text" class="form-control" id="txt-single-url" placeholder="Put the root URL here">
+                </div>
+
+                <div class="form-group">
+                  <label for="txt-exclude-url-contains">Exclude URL Which Contains (Comma
+                    Separated):</label>
+                  <input type="text" class="form-control" id="txt-exclude-url-contains" placeholder="Exclude URL that contains these texts">
+                </div>
+
+                <div class="form-group">
+                  <label for="txt-download-limit">Download Count Limit (-1 for Infinite):</label>
+                  <input type="text" class="form-control" id="txt-download-limit" placeholder="Limit your download count here" value="-1">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="connections" class="tab-pane fade" role="tabpanel">
+            <div class="form-group">
+            </div>
+            <label for="proxy-1">Proxy:</label>
+            <div id="proxy-1" class="row">
+              <div class="col-6">
+                <label class="sr-only" for="txt-ip-address">IP Address</label>
+                <input type="text" class="form-control" id="txt-ip-address" placeholder="IP Address">
+              </div>
+              <div class="col-2">
+                <label class="sr-only" for="txt-port">Port</label>
+                <input type="text" class="form-control" id="txt-port" placeholder="Port">
+              </div>
+              <div class="col-4">
+                <div class="checkbox">
+                  <label>
+                    <input id="chk-ignore-cert-err" type="checkbox" checked> Ignore Certificate
+                    Error
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div id="proxy-2" class="row">
+              <div class="col-6">
+                <label class="sr-only" for="txt-username">Username</label>
+                <input type="text" class="form-control" id="txt-username" placeholder="Username">
+              </div>
+              <div class="col-6">
+                <label class="sr-only" for="pass-password">Password</label>
+                <input type="password" class="form-control" id="pass-password" placeholder="Password">
+              </div>
+            </div>
+
+            <div class="form-group">
+            </div>
+
+            <div class="form-group">
+              <label for="txt-user-agent">User Agent:</label>
+              <input type="text" class="form-control" id="txt-user-agent">
+            </div>
+          </div>
+          <div id="on-finished" class="tab-pane fade" role="tabpanel">
+            <div class="form-group">
+              <label for="save-as">Save As:</label>
+              <select id="save-as" name="saveAs" class="form-control">
+                <option value="MHTML">MHTML</option>
+                <option value="PDF">PDF</option>
+                <option value="Image">Image</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+            </div>
+
+            <div class="form-group">
+              <label for="where-to-save">Where To Save The Output:</label>
+              <div id="where-to-save" class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button id="browse" class="btn btn-primary" type="button">Browse</button>
+                </div>
+                <input id="browse-result" type="text" class="form-control" aria-label="" aria-describedby="basic-addon1" readonly>
+              </div>
+            </div>
+
+            <div class="form-group">
+            </div>
+
+            <div class="form-group">
+              <label for="when-finished">When Download Finished:</label>
+              <div id="when-finished">
+                <div class="radio">
+                  <label><input type="radio" value="open-output-folder" name="rad-when-finished" checked>Open Output Folder</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" value="do-nothing" name="rad-when-finished">Do
+                    Nothing</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="renderer.js"></script>
+</body>
+
+</html>

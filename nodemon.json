@@ -1,0 +1,4 @@
+{
+    "ignore": ["build/", "data/", "dist/", "jsdoc_template/", "node_modules/"],
+    "ext": "js, mjs, cjs, json, html, htm, css"
+}
