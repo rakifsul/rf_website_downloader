@@ -30,6 +30,6 @@ Karena puppeteer memerlukan chrome, maka sebelum aplikasi ini bisa digunakan, ch
 	<img src="./.md_asset/ss-1.png" />
 </p>
 
-## Link untuk Traktir
+## Freelance Worker Link
 
-- https://karyakarsa.com/rakifsul/info
+- https://projects.co.id/public/browse_users/view/99bc11/rakifsul

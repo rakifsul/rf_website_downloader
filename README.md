@@ -32,6 +32,6 @@ Since Puppeteer requires Chrome, Chrome must be installed before this applicatio
 	<img src="./.md_asset/ss-1.png" />
 </p>
 
-## Link untuk Traktir
+## Freelance Worker Link
 
-- https://karyakarsa.com/rakifsul/info
+- https://projects.co.id/public/browse_users/view/99bc11/rakifsul
