@@ -3,8 +3,6 @@
 
 # rf_website_downloader - Website Downloader - Download as Image or PDF
 
-[README dengan Bahasa Indonesia Klik di Sini](https://github.com/rakifsul/rf_website_downloader/blob/main/README_id.md)
-
 ## Intro
 
 This application is a website downloader...
